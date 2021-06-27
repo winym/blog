@@ -1,0 +1,35 @@
+.text-body{
+    text-decoration: none;
+    color: #212529;
+}
+.Learn a{
+    color:#3498DB;
+}
+.Learn a:hover{
+    color: #1d6fa5;
+}
+.page{
+    width: 100%;
+    list-style: none;
+    margin: 25px 0;
+    padding: 0;
+}
+.page li{
+    display：inline-block;
+    float: left;
+    margin: 0 6px;
+    font-size: 18px;
+}
+.page li a{
+    text-decoration: none;
+    color:#3498DB;
+}
+.current{
+    background-color:rgba(133, 125, 125,0.3);
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+#live2dcanvas {
+    border: 0 !important;
+}
